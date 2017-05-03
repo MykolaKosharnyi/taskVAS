@@ -15,7 +15,7 @@
 	<bean id="funDialService"
 		class="org.springframework.remoting.caucho.BurlapProxyFactoryBean">
 		<property name="serviceUrl"
-			value="http://localhost:8080/taskVAS/funDialService.http" />
+			value="http://localhost:8080/springremotingburlapserver/funDialService.http" />
 		<property name="serviceInterface"
 			value="model.external_service.FunDialService" />
 	</bean>
