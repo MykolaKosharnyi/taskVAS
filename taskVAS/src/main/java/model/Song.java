@@ -1,5 +1,12 @@
 package model;
 
+/**
+ * 
+ * @author  Nikolay Kosharnyi
+ * 
+ * Actually this is the class which we will be sent throw API of this application
+ *
+ */
 public class Song {
 	private String name;
 

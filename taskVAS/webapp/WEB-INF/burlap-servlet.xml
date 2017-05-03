@@ -4,10 +4,10 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans 
 	http://www.springframework.org/schema/beans/spring-beans.xsd">
 	
-	<bean id="funDialService" class="model.external_service.FunDialServiceImpl" />
+	<bean id="funDialServiceImpl" class="model.external_service.FunDialServiceImpl" />
 
 	<bean name="/funDialService.http" class="org.springframework.remoting.caucho.BurlapServiceExporter">
-		<property name="service" ref="funDialService" />
+		<property name="service" ref="funDialServiceImpl" />
 		<property name="serviceInterface" value="model.external_service.FunDialService" />
 	</bean>
 
