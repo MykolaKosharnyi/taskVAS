@@ -11,6 +11,9 @@
 
  	<!-- Enables the Spring MVC @Controller programming model -->
     <mvc:annotation-driven />
+    
+    <!-- Process annotations on registered beans like @Autowired... -->
+    <context:annotation-config/>
 
 	<context:component-scan base-package="model"/>
 
