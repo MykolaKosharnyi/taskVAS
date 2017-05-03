@@ -5,7 +5,14 @@ import java.util.Map;
 
 import model.Song;
 
-public class LBSImpl implements LBS {
+/**
+ * 
+ * @author  Nikolay Kosharnyi
+ * 
+ * Realization LBSService on remote service.
+ *
+ */
+public class LBSServiceImpl implements LBSService {
 
 	private Map<String, String> storeOfSongs = new HashMap<>();
 	

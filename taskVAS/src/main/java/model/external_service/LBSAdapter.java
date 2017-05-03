@@ -2,11 +2,18 @@ package model.external_service;
 
 import model.Song;
 
+/**
+ * 
+ * @author  Nikolay Kosharnyi
+ * 
+ * Adapter for LBS service.
+ *
+ */
 public class LBSAdapter implements ServiceAdapter {
 
-	private LBS lbs;
+	private LBSService lbs;
 	
-	public LBSAdapter(LBS lbs){
+	public LBSAdapter(LBSService lbs){
 		this.lbs = lbs;
 	}
 	
